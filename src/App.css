@@ -1,3 +1,50 @@
-.App {
+
+
+.cabecalho{
   text-align: center;
+  font-size:50px;
+  color:rgb(48, 48, 48);
 }
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  color:rgb(48, 48, 48);
+}
+
+.planets{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.card-planets{
+  border-radius:  8px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: rgb(116, 116, 116);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-planet{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.missionCard{
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 20%;
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(106, 106, 106);
+  font-size: 25px;
+}
+
